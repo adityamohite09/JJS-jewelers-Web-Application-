@@ -1,0 +1,48 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.p1{
+    position: relative;
+    transition:  3s ease-in-out;
+}
+.he{
+    position: absolute;
+    top: 30px;
+    right: 20px;
+
+}
+.sp{
+    height: 40px;
+}
+.ch1{
+    height: 30px;
+   
+   
+    position: absolute;
+    top: 20px;
+    left: 5px;
+    width: 70px;
+    background-color: #C5AF6E;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+.ch2{
+    position: absolute;
+    bottom: 20px;
+    left: 30%;
+    display: none;
+    transition:  3s ease-in-out;
+}
+.p1:hover{
+   .ch2{
+    display: grid;
+    transition:  3s ease-in-out;
+   
+   }
+}
+#ii:hover{
+    transform: scale(1.03);
+    overflow: hidden;
+    transition: 1s all;
+}

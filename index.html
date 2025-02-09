@@ -1,0 +1,1223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JJS</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./Css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- nav start -->
+    <nav class=" navbar navbar-expand-lg navbar-light  p-0 py-2">
+        <div class="container ">
+            <!-- Logo -->
+            <div class="d-flex align-items-center">
+                <a class="navbar-brand" href="#">
+                    <!-- <img src="./images/illustration/Logo.png" alt="Probo Logo"> -->
+                    <h1 class="m-0">JJS'S</h1>
+                </a>
+            </div>
+
+            <!-- Toggler for mobile -->
+            <button class="btn btn-white d-lg-none" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar links and content -->
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
+                aria-labelledby="offcanvasExampleLabel">
+                <div class="offcanvas-header">
+                    <h1 class="m-0">JJS'S</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <!-- Navigation Links -->
+                <ul class="navbar-nav offcanvas-body d-flex justify-content-start d-lg-flex justify-content-lg-end">
+                    <li class="nav-item pe-2">
+                        <a class="nav-link" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item pe-2">
+                        <a class="nav-link" href="./Pages/About.html">About</a>
+                    </li>
+                    <li class="nav-item pe-2">
+                        <a class="nav-link" href="#">Collection</a>
+                    </li>
+                    <li class="nav-item pe-2">
+                        <a class="nav-link" href="#">Offer/Deals</a>
+                    </li>
+                    <li class="nav-item pe-2">
+                        <a class="nav-link" href="./Pages/ConntactUS.html">Contact US</a>
+                    </li>
+                    <li class="nav-item pe-2">
+                        <a href="./Pages/Login.html"> <button class="btn btn-dark" >Log in</button></a>
+                       
+                       
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- nav end-->
+
+    <!----------------------------------------------------------------------------------------- -->
+
+    <!-- Carousel start -->
+
+    <div class="carousel slide" id="carouselDemo" data-bs-wrap="true" data-bs-ride="carousel">
+
+        <div class="carousel-inner">
+
+            <div class="carousel-item active " data-bs-interval="2000">
+                <img src="./image/illustration/32jjs (1).jpg"  alt="" class="img-fluid">
+                <div class="carousel-caption">
+
+                </div>
+            </div>
+
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="./image/illustration/jjs.jpg" alt="" class="img-fluid">
+                <div class="carousel-caption">
+
+                </div>
+            </div>
+
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="./image/illustration/42jjs (1).jpg"  alt="" class="img-fluid">
+                <div class="carousel-caption">
+
+                </div>
+            </div>
+
+        </div>
+
+        <!-- carousel-control -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselDemo" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselDemo" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+        <!--  -->
+
+
+        <!--carousel-indicators  -->
+        <div class="carousel-indicators">
+            <button type="button" class="active" id="indicator" data-bs-target="#carouselDemo" data-bs-slide-to="0"></button>
+            <button type="button" class="" id="indicator" data-bs-target="#carouselDemo" data-bs-slide-to="1"></button>
+            <button type="button" class=""id="indicator" data-bs-target="#carouselDemo" data-bs-slide-to="2"></button>
+        </div>
+        <!--   -->
+
+    </div>
+    <!-- Carousel end -->
+
+    <!-- --------------------------------------------------------------------------------------- -->
+
+    <!--  Categories Section -->
+
+    <div class="mt-4">
+        <h2 class="text-center">Categories</h2>
+
+        <div class="d-flex justify-content-evenly mt-5">
+            <figure>
+                <a href="">
+                    <figure class="figure text-center">
+                       <a href="./Pages/card.html"><img src="./image/illustration/new-arrivals.jpg" alt="" class="img-fluid" id="Categoriesbox"></a> 
+                        <figcaption class="figure-caption ">
+                          <p>New Arrivals</p>
+                           
+                        </figcaption>
+                    </figure>
+                </a>
+            </figure>
+
+            <figure>
+                <a href="">
+                    <figure class="figure text-center">
+                        <img src="./image/illustration/coinnew-removebg-preview.png" alt="" class="img-fluid" id="Categoriesbox">
+                        <figcaption class="figure-caption ">
+                          <p>Gold coins</p>  
+                        </figcaption>
+                    </figure>
+                </a>
+            </figure>
+
+            <figure>
+                <a href="">
+                    <figure class="figure text-center">
+                        <img src="./image/illustration/download-removebg-preview (1).png" alt="" class="img-fluid" id="Categoriesbox">
+                        <figcaption class="figure-caption ">
+                           <p>Silver coins</p> 
+                        </figcaption>
+                    </figure>
+                </a>
+            </figure>
+
+            <figure>
+                <a href="">
+                    <figure class="figure text-center">
+                        <img src="./image/illustration/download (2).jpg" alt="" class="img-fluid" id="Categoriesbox">
+                        <figcaption class="figure-caption ">
+                           <p>Gold Chain</p> 
+                        </figcaption>
+                    </figure>
+                </a>
+            </figure>
+
+        </div>
+
+    </div>
+
+            <!-- ---new Arrivals-------------------- -->
+            <h1 class="text-center">New Arrival</h1>
+            <div class="col-12 d-flex align-items-center justify-content-start overflow-auto py-3 w-100 mt-3 " id="demo1">
+                <div class="col-12 col-md-4 col-lg-3 flex-shrink-0 p-3">
+                    <img src="./image/illustration/Gold-Earring (1).jpg" class="w-100" alt="">
+                </div>
+    
+                <div class="col-12 col-md-4 col-lg-3 flex-shrink-0 p-3">
+                    <img src="./image/illustration/Gold-Earring (1).jpg" class="img-fluid" alt="">
+                </div>
+    
+                <div class="col-12 col-md-4 col-lg-3 flex-shrink-0 p-3">
+                    <img src="./image/illustration/Gold-Earring (1).jpg" class="img-fluid" alt="">
+                </div>
+    
+                <div class="col-12 col-md-4 col-lg-3 flex-shrink-0 p-3 ">
+                    <img src="./image/illustration/Gold-Earring (1).jpg" class="img-fluid" alt="">
+                </div>
+    
+                 <div class="col-12 col-md-4 col-lg-3 flex-shrink-0 p-3 ">
+                    <img src="./image/illustration/Gold-Earring (1).jpg" class="img-fluid" alt="">
+                </div>
+            
+            </div>
+            <div class="d-flex justify-content-center">
+               <a href="./Pages/card.html"><button class="btn btn-primary">View All Product</button></a> 
+            </div>
+
+            <!-- ------------new arrival end----------------- -->
+
+
+                    <!-- --------------------collection start ----->
+
+        <section class="container mt-4">
+            <h1 class="h1 text-center">Our Collection</h1>
+            <p class="text-center">Explore Our Latest Jewellery Collection</p>
+            <div class="gap-1 d-md-none d-lg-none">
+                <div class="mt-3">
+                    <img src="./image/illustration/kids-collection-1.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-6 d-flex gap-1 mt-3">
+                    <img src="./image/illustration/Legendz-collection-1.jpg" class="img-fluid" alt="">
+                    <img src="./image/illustration/Sankha-Pola-1.jpg" class="img-fluid" alt="">
+                </div>
+            </div>
+
+            <div class=" gap-2 d-none d-md-flex">
+                <img src="./image/illustration/kids-collection-1.jpg" class="img-fluid col-md-4" alt="">
+                <img src="./image/illustration/Legendz-collection-1.jpg" class="img-fluid col-md-4" alt="">
+                <img src="./image/illustration/Sankha-Pola-1.jpg" class="img-fluid col-md-4" alt="">
+            </div>
+
+
+
+        </section>
+        <!-- -------------------collection end--- ---->
+
+        <!-- ----promise start -->
+        <div class="container mt-5">
+            <h2 class="text-center"> JJS Promise</h2>
+            <h4 class="text-center">Pure Jewellery, Trusted Forever.</h4>
+
+
+            <div class="mobcarosuel mt-5">
+                <div class="carousel slide" data-bs-wrap="true" data-bs-ride="carousel" id="caropromise">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="2000">
+                            <div class="col-12 row">
+                                <div class="col-6 col-md-4  col-lg-2 ">
+                                    <figure class=" border border-warning" id="caro-promise">
+                                        <div class="d-flex justify-content-center">
+                                            <img src="./image/illustration/100_BIS_HALLMARKED_GOLD_plum.png" id="img1"
+                                                alt="">
+                                        </div>
+
+                                        <figcaption class="figcaption">
+                                            <h5 class="text-center">BIS Hallmarked Gold</h5>
+                                            <p class="text-center ps-4 pe-4">Guaranteed Quality with BIS Hallmarked
+                                                Gold.</p>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+
+                                <div class="col-6 col-md-4 col-lg-2 ">
+                                    <figure class=" border border-warning" id="caro-promise">
+                                        <div class="d-flex justify-content-center">
+                                            <img src="./image/illustration/FAIR_PRICE_POLICY_plum.png" alt=""
+                                                class="img-fluid">
+                                        </div>
+
+                                        <figcaption class="figcaption">
+                                            <h5 class="text-center">Fair Price Policy</h5>
+                                            <p class="text-center ps-4 pe-4">All Our jewellery adheres to responsible
+                                                acquisition Standards</p>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="carousel-item " data-bs-interval="2000">
+                            <div class="col-12 row">
+                                <div class="col-6 col-md-4 col-lg-2 ">
+                                    <figure class=" border border-warning" id="caro-promise">
+                                        <div class="d-flex justify-content-center">
+                                            <img src="./image/illustration/FAIR_PRICE_POLICY_plum.png" alt=""
+                                                class="img-fluid">
+                                        </div>
+
+                                        <figcaption class="figcaption">
+                                            <h5 class="text-center">Fair Price Policy</h5>
+                                            <p class="text-center ps-4 pe-4">All Our jewellery adheres to responsible
+                                                acquisition Standards</p>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+
+                                <div class="col-6 col-md-4 col-lg-2 ">
+                                    <figure class=" border border-warning" id="caro-promise">
+                                        <div class="d-flex justify-content-center">
+                                            <img src="./image/illustration/COMPLETE_TRANSPARENCY_plum.png" alt=""
+                                                class="img-fluid">
+                                        </div>
+
+                                        <figcaption class="figcaption">
+                                            <h5 class="text-center">Complete Transparency</h5>
+                                            <p class="text-center p-2 p-md-0">Complete Transparency: Jewellery You Can
+                                                Trust.</p>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="carousel-item " data-bs-interval="2000">
+                            <div class="col-12 row">
+                                <div class="col-6 col-md-4 col-lg-2">
+                                    <figure class=" border border-warning" id="caro-promise">
+                                        <div class="d-flex justify-content-center">
+                                            <img src="./image/illustration/ASSURED_LIFETIME_MAINTENANCE_plum.png"
+                                                class="img-fluid" alt="">
+                                        </div>
+
+                                        <figcaption class="figcaption">
+                                            <h5 class="text-center">Assured lifetime Maintenance</h5>
+                                            <p class="text-center p-2 p-md-0">We assure lifetime maintenance for
+                                                jewellery.</p>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+
+                                <div class="col-6 col-md-4 col-lg-2 ">
+                                    <figure class=" border border-warning" id="caro-promise">
+                                        <div class="d-flex justify-content-center">
+                                            <img src="./image/illustration/FAIR_LABOUR_PRACTICES_plum.png"
+                                                class="img-fluid" alt="">
+                                        </div>
+
+                                        <figcaption class="figcaption">
+                                            <h5 class="text-center">Fair Labour Practices</h5>
+                                            <p class="text-center p-2 p-md-0">Ethically Crafted Jewellery with Fair
+                                                Labour at Heart.</p>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item " data-bs-interval="2000">
+                            <div class="col-12 row">
+                                <div class="col-6 col-md-4 col-lg-2 ">
+                                    <figure class=" border border-warning" id="caro-promise">
+                                        <div class="d-flex justify-content-center">
+                                            <img src="./image/illustration/FAIR_LABOUR_PRACTICES_plum.png"
+                                                class="img-fluid" alt="">
+                                        </div>
+
+                                        <figcaption class="figcaption">
+                                            <h5 class="text-center">Fair Labour Practices</h5>
+                                            <p class="text-center p-2 p-md-0">Ethically Crafted Jewellery with Fair
+                                                Labour at Heart.</p>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+
+                                <div class="col-6 col-md-4 col-lg-2 ">
+                                    <figure class=" border border-warning" id="caro-promise">
+                                        <div class="d-flex justify-content-center">
+                                            <img src="./image/illustration/14-days-return-policy_new.png"
+                                                class="img-fluid" alt="">
+                                        </div>
+
+                                        <figcaption class="figcaption">
+                                            <h5 class="text-center">14-Day Return Policy</h5>
+                                            <p class="text-center p-2 p-md-0">14-Day Return Policy: Your Satisfaction,
+                                                Our Priority.</p>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+            <!--  -->
+            <div class="tabletcarousel">
+                <div class="carousel slide" data-bs-wrap="true" data-bs-ride="carousel" id="caropromise">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="2000">
+                            <div class="col-12 row">
+                                <div class="col-6 col-md-4  col-lg-2 ">
+                                    <figure class=" border border-warning" id="caro-promise">
+                                        <div class="d-flex justify-content-center">
+                                            <img src="./image/illustration/100_BIS_HALLMARKED_GOLD_plum.png" id="img1"
+                                                alt="">
+                                        </div>
+
+                                        <figcaption class="figcaption mt-2">
+                                            <h5 class="text-center">BIS Hallmarked Gold</h5>
+                                            <p class="text-center p-3">Guaranteed Quality with BIS Hallmarked
+                                                Gold.</p>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+
+                                <div class="col-6 col-md-4 col-lg-2 ">
+                                    <figure class=" border border-warning" id="caro-promise">
+                                        <div class="d-flex justify-content-center">
+                                            <img src="./image/illustration/FAIR_PRICE_POLICY_plum.png" alt=""
+                                                class="img-fluid">
+                                        </div>
+
+                                        <figcaption class="figcaption mt-2">
+                                            <h5 class="text-center">Fair Price Policy</h5>
+                                            <p class="text-center p-3">All Our jewellery adheres to responsible
+                                                acquisition Standards</p>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+
+                                <div class="col-6 col-md-4 col-lg-2 ">
+                                    <figure class=" border border-warning" id="caro-promise">
+                                        <div class="d-flex justify-content-center">
+                                            <img src="./image/illustration/COMPLETE_TRANSPARENCY_plum.png" alt=""
+                                                class="img-fluid">
+                                        </div>
+
+                                        <figcaption class="figcaption mt-2">
+                                            <h5 class="text-center">Complete Transparency</h5>
+                                            <p class="text-center p-3">Complete Transparency: Jewellery You Can
+                                                Trust.</p>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item " data-bs-interval="2000">
+                            <div class="col-12 row">
+                                <div class="col-6 col-md-4 col-lg-2 ">
+                                    <figure class=" border border-warning" id="caro-promise">
+                                        <div class="d-flex justify-content-center">
+                                            <img src="./image/illustration/FAIR_PRICE_POLICY_plum.png" alt=""
+                                                class="img-fluid">
+                                        </div>
+
+                                        <figcaption class="figcaption mt-2">
+                                            <h5 class="text-center">Fair Price Policy</h5>
+                                            <p class="text-center p-3">All Our jewellery adheres to responsible
+                                                acquisition Standards</p>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+
+                                <div class="col-6 col-md-4 col-lg-2 ">
+                                    <figure class=" border border-warning" id="caro-promise">
+                                        <div class="d-flex justify-content-center">
+                                            <img src="./image/illustration/COMPLETE_TRANSPARENCY_plum.png" alt=""
+                                                class="img-fluid">
+                                        </div>
+
+                                        <figcaption class="figcaption mt-2">
+                                            <h5 class="text-center">Complete Transparency</h5>
+                                            <p class="text-center p-3">Complete Transparency: Jewellery You Can
+                                                Trust.</p>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+
+                                <div class="col-6 col-md-4 col-lg-2">
+                                    <figure class=" border border-warning" id="caro-promise">
+                                        <div class="d-flex justify-content-center">
+                                            <img src="./image/illustration/ASSURED_LIFETIME_MAINTENANCE_plum.png"
+                                                class="img-fluid" alt="">
+                                        </div>
+
+                                        <figcaption class="figcaption mt-2">
+                                            <h5 class="text-center">Assured lifetime Maintenance</h5>
+                                            <p class="text-center p-3">We assure lifetime maintenance for
+                                                jewellery.</p>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <div class="col-12 row">
+                                <div class="col-6 col-md-4 col-lg-2 ">
+                                    <figure class=" border border-warning" id="caro-promise">
+                                        <div class="d-flex justify-content-center">
+                                            <img src="./image/illustration/COMPLETE_TRANSPARENCY_plum.png" alt=""
+                                                class="img-fluid">
+                                        </div>
+
+                                        <figcaption class="figcaption mt-2">
+                                            <h5 class="text-center">Complete Transparency</h5>
+                                            <p class="text-center p-3">Complete Transparency: Jewellery You Can
+                                                Trust.</p>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+
+                                <div class="col-6 col-md-4 col-lg-2">
+                                    <figure class=" border border-warning" id="caro-promise">
+                                        <div class="d-flex justify-content-center">
+                                            <img src="./image/illustration/ASSURED_LIFETIME_MAINTENANCE_plum.png"
+                                                class="img-fluid" alt="">
+                                        </div>
+
+                                        <figcaption class="figcaption mt-2">
+                                            <h5 class="text-center">Assured lifetime Maintenance</h5>
+                                            <p class="text-center p-3">We assure lifetime maintenance for
+                                                jewellery.</p>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+
+                                <div class="col-6 col-md-4 col-lg-2 ">
+                                    <figure class=" border border-warning" id="caro-promise">
+                                        <div class="d-flex justify-content-center">
+                                            <img src="./image/illustration/FAIR_LABOUR_PRACTICES_plum.png"
+                                                class="img-fluid" alt="">
+                                        </div>
+
+                                        <figcaption class="figcaption mt-2">
+                                            <h5 class="text-center">Fair Labour Practices</h5>
+                                            <p class="text-center p-3">Ethically Crafted Jewellery with Fair
+                                                Labour at Heart.</p>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+
+                            </div>
+                        </div>
+
+
+
+
+                        <div class="carousel-item " data-bs-interval="2000">
+                            <div class="col-12 row">
+                                <div class="col-6 col-md-4 col-lg-2">
+                                    <figure class=" border border-warning" id="caro-promise">
+                                        <div class="d-flex justify-content-center">
+                                            <img src="./image/illustration/ASSURED_LIFETIME_MAINTENANCE_plum.png"
+                                                class="img-fluid" alt="">
+                                        </div>
+
+                                        <figcaption class="figcaption mt-2">
+                                            <h5 class="text-center">Assured lifetime Maintenance</h5>
+                                            <p class="text-center p-3">We assure lifetime maintenance for
+                                                jewellery.</p>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+
+                                <div class="col-6 col-md-4 col-lg-2 ">
+                                    <figure class=" border border-warning" id="caro-promise">
+                                        <div class="d-flex justify-content-center">
+                                            <img src="./image/illustration/FAIR_LABOUR_PRACTICES_plum.png"
+                                                class="img-fluid" alt="">
+                                        </div>
+
+                                        <figcaption class="figcaption mt-2">
+                                            <h5 class="text-center">Fair Labour Practices</h5>
+                                            <p class="text-center p-3">Ethically Crafted Jewellery with Fair
+                                                Labour at Heart.</p>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+
+                                <div class="col-6 col-md-4 col-lg-2 ">
+                                    <figure class=" border border-warning" id="caro-promise">
+                                        <div class="d-flex justify-content-center">
+                                            <img src="./image/illustration/14-days-return-policy_new.png"
+                                                class="img-fluid" alt="">
+                                        </div>
+
+                                        <figcaption class="figcaption mt-2">
+                                            <h5 class="text-center">14-Day Return Policy</h5>
+                                            <p class="text-center p-3">14-Day Return Policy: Your Satisfaction,
+                                                Our Priority.</p>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--  -->
+
+            <!--  -->
+            <div class="desktoppro mt-5">
+                <div class="carousel slide" data-bs-wrap="true" data-bs-ride="carousel" id="caropromise">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="2000">
+                            <div class="col-12 row">
+                                <div class="col-6 col-md-4  col-lg-3 ">
+                                    <figure class=" border border-warning" id="caro-promise">
+                                        <div class="d-flex justify-content-center">
+                                            <img src="./image/illustration/100_BIS_HALLMARKED_GOLD_plum.png" id="img1"
+                                                alt="">
+                                        </div>
+
+                                        <figcaption class="figcaption mt-3 ">
+                                            <h5 class="text-center">BIS Hallmarked Gold</h5>
+                                            <p class="text-center p-3">Guaranteed Quality with BIS Hallmarked
+                                                Gold.</p>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+
+                                <div class="col-6 col-md-4 col-lg-3 ">
+                                    <figure class=" border border-warning" id="caro-promise">
+                                        <div class="d-flex justify-content-center">
+                                            <img src="./image/illustration/FAIR_PRICE_POLICY_plum.png" alt=""
+                                                class="img-fluid">
+                                        </div>
+
+                                        <figcaption class="figcaption mt-3">
+                                            <h5 class="text-center">Fair Price Policy</h5>
+                                            <p class="text-center p-3">All Our jewellery adheres to responsible
+                                                acquisition Standards</p>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+
+                                <div class="col-6 col-md-4 col-lg-3 ">
+                                    <figure class=" border border-warning" id="caro-promise">
+                                        <div class="d-flex justify-content-center">
+                                            <img src="./image/illustration/COMPLETE_TRANSPARENCY_plum.png" alt=""
+                                                class="img-fluid">
+                                        </div>
+
+                                        <figcaption class="figcaption mt-3">
+                                            <h5 class="text-center">Complete Transparency</h5>
+                                            <p class="text-center p-3">Complete Transparency: Jewellery You Can
+                                                Trust.</p>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+
+                                <div class="col-6 col-md-4 col-lg-3 ">
+                                    <figure class=" border border-warning" id="caro-promise">
+                                        <div class="d-flex justify-content-center">
+                                            <img src="./image/illustration/FAIR_LABOUR_PRACTICES_plum.png"
+                                                class="img-fluid" alt="">
+                                        </div>
+
+                                        <figcaption class="figcaption mt-3">
+                                            <h5 class="text-center">Fair Labour Practices</h5>
+                                            <p class="text-center p-3">Ethically Crafted Jewellery with Fair
+                                                Labour at Heart.</p>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                                
+                                
+                            </div>
+                            
+                        </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <div class="col-12 row">
+                        
+
+                            <div class="col-6 col-md-4 col-lg-3 ">
+                                <figure class=" border border-warning" id="caro-promise">
+                                    <div class="d-flex justify-content-center">
+                                        <img src="./image/illustration/FAIR_PRICE_POLICY_plum.png" alt=""
+                                            class="img-fluid">
+                                    </div>
+
+                                    <figcaption class="figcaption mt-3">
+                                        <h5 class="text-center">Fair Price Policy</h5>
+                                        <p class="text-center p-3">All Our jewellery adheres to responsible
+                                            acquisition Standards</p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+
+                            <div class="col-6 col-md-4 col-lg-3 ">
+                                <figure class=" border border-warning" id="caro-promise">
+                                    <div class="d-flex justify-content-center">
+                                        <img src="./image/illustration/COMPLETE_TRANSPARENCY_plum.png" alt=""
+                                            class="img-fluid">
+                                    </div>
+
+                                    <figcaption class="figcaption mt-3">
+                                        <h5 class="text-center">Complete Transparency</h5>
+                                        <p class="text-center p-3">Complete Transparency: Jewellery You Can
+                                            Trust.</p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+
+                            <div class="col-6 col-md-4 col-lg-3 ">
+                                <figure class=" border border-warning" id="caro-promise">
+                                    <div class="d-flex justify-content-center">
+                                        <img src="./image/illustration/FAIR_LABOUR_PRACTICES_plum.png"
+                                            class="img-fluid" alt="">
+                                    </div>
+
+                                    <figcaption class="figcaption mt-3">
+                                        <h5 class="text-center">Fair Labour Practices</h5>
+                                        <p class="text-center p-3">Ethically Crafted Jewellery with Fair
+                                            Labour at Heart.</p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+
+                            <div class="col-6 col-md-4  col-lg-3 ">
+                                <figure class=" border border-warning" id="caro-promise">
+                                    <div class="d-flex justify-content-center">
+                                        <img src="./image/illustration/100_BIS_HALLMARKED_GOLD_plum.png" id="img1"
+                                            alt="">
+                                    </div>
+
+                                    <figcaption class="figcaption mt-3">
+                                        <h5 class="text-center">BIS Hallmarked Gold</h5>
+                                        <p class="text-center p-3">Guaranteed Quality with BIS Hallmarked
+                                            Gold.</p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                   
+
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <div class="col-12 row">
+
+                            <div class="col-6 col-md-4 col-lg-3 ">
+                                <figure class=" border border-warning" id="caro-promise">
+                                    <div class="d-flex justify-content-center">
+                                        <img src="./image/illustration/COMPLETE_TRANSPARENCY_plum.png" alt=""
+                                            class="img-fluid">
+                                    </div>
+
+                                    <figcaption class="figcaption mt-3">
+                                        <h5 class="text-center">Complete Transparency</h5>
+                                        <p class="text-center p-3">Complete Transparency: Jewellery You Can
+                                            Trust.</p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            
+
+                            <div class="col-6 col-md-4 col-lg-3 ">
+                                <figure class=" border border-warning" id="caro-promise">
+                                    <div class="d-flex justify-content-center">
+                                        <img src="./image/illustration/FAIR_LABOUR_PRACTICES_plum.png"
+                                            class="img-fluid" alt="">
+                                    </div>
+
+                                    <figcaption class="figcaption mt-3">
+                                        <h5 class="text-center">Fair Labour Practices</h5>
+                                        <p class="text-center p-3">Ethically Crafted Jewellery with Fair
+                                            Labour at Heart.</p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+
+                            <div class="col-6 col-md-4  col-lg-3 ">
+                                <figure class=" border border-warning" id="caro-promise">
+                                    <div class="d-flex justify-content-center">
+                                        <img src="./image/illustration/100_BIS_HALLMARKED_GOLD_plum.png" id="img1"
+                                            alt="">
+                                    </div>
+
+                                    <figcaption class="figcaption mt-3">
+                                        <h5 class="text-center">BIS Hallmarked Gold</h5>
+                                        <p class="text-center p-3">Guaranteed Quality with BIS Hallmarked
+                                            Gold.</p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+
+                            <div class="col-6 col-md-4 col-lg-3 ">
+                                <figure class=" border border-warning" id="caro-promise">
+                                    <div class="d-flex justify-content-center">
+                                        <img src="./image/illustration/FAIR_PRICE_POLICY_plum.png" alt=""
+                                            class="img-fluid">
+                                    </div>
+
+                                    <figcaption class="figcaption mt-3">
+                                        <h5 class="text-center">Fair Price Policy</h5>
+                                        <p class="text-center p-3">All Our jewellery adheres to responsible
+                                            acquisition Standards</p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+
+               
+                        </div>
+                    </div>
+
+
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <div class="col-12 row">              
+
+                            <div class="col-6 col-md-4 col-lg-3 ">
+                                <figure class=" border border-warning" id="caro-promise">
+                                    <div class="d-flex justify-content-center">
+                                        <img src="./image/illustration/COMPLETE_TRANSPARENCY_plum.png" alt=""
+                                            class="img-fluid">
+                                    </div>
+
+                                    <figcaption class="figcaption mt-3">
+                                        <h5 class="text-center">Complete Transparency</h5>
+                                        <p class="text-center p-3">Complete Transparency: Jewellery You Can
+                                            Trust.</p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+
+                            
+                            <div class="col-6 col-md-4 col-lg-3 ">
+                                <figure class=" border border-warning" id="caro-promise">
+                                    <div class="d-flex justify-content-center">
+                                        <img src="./image/illustration/FAIR_LABOUR_PRACTICES_plum.png"
+                                            class="img-fluid" alt="">
+                                    </div>
+
+                                    <figcaption class="figcaption mt-3">
+                                        <h5 class="text-center">Fair Labour Practices</h5>
+                                        <p class="text-center p-3">Ethically Crafted Jewellery with Fair
+                                            Labour at Heart.</p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+
+                            <div class="col-6 col-md-4  col-lg-3 ">
+                                <figure class=" border border-warning" id="caro-promise">
+                                    <div class="d-flex justify-content-center">
+                                        <img src="./image/illustration/100_BIS_HALLMARKED_GOLD_plum.png" id="img1"
+                                            alt="">
+                                    </div>
+
+                                    <figcaption class="figcaption mt-3">
+                                        <h5 class="text-center">BIS Hallmarked Gold</h5>
+                                        <p class="text-center p-3">Guaranteed Quality with BIS Hallmarked
+                                            Gold.</p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+
+                            <div class="col-6 col-md-4 col-lg-3 ">
+                                <figure class=" border border-warning" id="caro-promise">
+                                    <div class="d-flex justify-content-center">
+                                        <img src="./image/illustration/FAIR_PRICE_POLICY_plum.png" alt=""
+                                            class="img-fluid">
+                                    </div>
+
+                                    <figcaption class="figcaption mt-3">
+                                        <h5 class="text-center">Fair Price Policy</h5>
+                                        <p class="text-center p-3">All Our jewellery adheres to responsible
+                                            acquisition Standards</p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <div class="row">
+                            <div class="col-6 col-md-4 col-lg-3 ">
+                                <figure class=" border border-warning" id="caro-promise">
+                                    <div class="d-flex justify-content-center">
+                                        <img src="./image/illustration/14-days-return-policy_new.png"
+                                            class="img-fluid" alt="">
+                                    </div>
+
+                                    <figcaption class="figcaption mt-3">
+                                        <h5 class="text-center">14-Day Return Policy</h5>
+                                        <p class="text-center p-3">14-Day Return Policy: Your Satisfaction,
+                                            Our Priority.</p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+
+                            <div class="col-6 col-md-4 col-lg-3 ">
+                                <figure class=" border border-warning" id="caro-promise">
+                                    <div class="d-flex justify-content-center">
+                                        <img src="./image/illustration/COMPLETE_TRANSPARENCY_plum.png" alt=""
+                                            class="img-fluid">
+                                    </div>
+
+                                    <figcaption class="figcaption mt-3">
+                                        <h5 class="text-center">Complete Transparency</h5>
+                                        <p class="text-center p-3">Complete Transparency: Jewellery You Can
+                                            Trust.</p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+
+                            
+                            <div class="col-6 col-md-4 col-lg-3 ">
+                                <figure class=" border border-warning" id="caro-promise">
+                                    <div class="d-flex justify-content-center">
+                                        <img src="./image/illustration/FAIR_LABOUR_PRACTICES_plum.png"
+                                            class="img-fluid" alt="">
+                                    </div>
+
+                                    <figcaption class="figcaption mt-3">
+                                        <h5 class="text-center">Fair Labour Practices</h5>
+                                        <p class="text-center p-3">Ethically Crafted Jewellery with Fair
+                                            Labour at Heart.</p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+
+                            <div class="col-6 col-md-4  col-lg-3 ">
+                                <figure class=" border border-warning" id="caro-promise">
+                                    <div class="d-flex justify-content-center">
+                                        <img src="./image/illustration/100_BIS_HALLMARKED_GOLD_plum.png" id="img1"
+                                            alt="">
+                                    </div>
+
+                                    <figcaption class="figcaption mt-3">
+                                        <h5 class="text-center">BIS Hallmarked Gold</h5>
+                                        <p class="text-center p-3">Guaranteed Quality with BIS Hallmarked
+                                            Gold.</p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        </div>
+
+
+         <!-- --promise end -->
+
+    <!--------- shop by gender------->
+
+    <section class="mt-5">
+        <h2 class="text-center">Shop By Gender</h2>
+        <!-- ---------------------------->
+        <!-- <div class="container"> -->
+        <div class="col-12 col-md-12 col-lg-12 d-md-flex justify-content-md-center d-lg-flex justify-content-lg-evenlyr mt-3 mt-lg-5">
+            <div class="col-lg-10 col-md-8">
+                <ul class="nav nav-tabs d-flex justify-content-evenly d-lg-flex justify-content-lg-evenly" id="mytab">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="WJewellery-tab" data-bs-toggle="tab" data-bs-target="#WJewellery" type="button" role="tab">Women's Jewellery</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="MJewellery-tab" data-bs-toggle="tab" data-bs-target="#MJewellery" type="button" role="tab">men's Jewellery</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="KJewellery-tab" data-bs-toggle="tab" data-bs-target="#KJewellery" type="button" role="tab">Kids Jewellery</button>
+                    </li>
+                </ul>
+       
+       
+      
+            <!-- Nav Tabs -->
+           
+        
+            <!-- Tab Content -->
+            <div class="tab-content py-3" id="myTabContent">
+                <!-- Women's Jewellery -->
+                <div class="tab-pane fade show active" id="WJewellery" role="tabpanel">
+                    <div class="row border-lg">
+                        <div class="col-6 col-lg-3 mt-4">
+                            <a href="#"><img src="./image/illustration/Gold-Ring.jpg" class="img-fluid" alt="Gold Ring"></a>
+                        </div>
+                        <div class="col-6 col-lg-3 mt-4">
+                            <img src="./image/illustration/Gold-Earring.jpg" class="img-fluid" alt="Gold Earring">
+                        </div>
+                        <div class="col-6 col-lg-3 mt-4">
+                            <img src="./image/illustration/Gold-Pendant.jpg" class="img-fluid" alt="Gold Pendant">
+                        </div>
+                        <div class="col-6 col-lg-3 mt-4">
+                            <img src="./image/illustration/Gold-Chain.jpg" class="img-fluid" alt="Gold Chain">
+                        </div>
+                    </div>
+                </div>
+        
+                <!-- Men's Jewellery -->
+                <div class="tab-pane fade" id="MJewellery" role="tabpanel">
+                    <div class="row border-lg">
+                        <div class="col-6 col-lg-3 mt-4">
+                            <img src="./image/illustration/Gold-Ring (1).jpg" class="img-fluid" alt="Gold Ring">
+                        </div>
+                        <div class="col-6 col-lg-3 mt-4">
+                            <img src="./image/illustration/Gold--kada.jpg" class="img-fluid" alt="Gold Kada">
+                        </div>
+                        <div class="col-6 col-lg-3 mt-4">
+                            <img src="./image/illustration/Gold-Pendant (1).jpg" class="img-fluid" alt="Gold Pendant">
+                        </div>
+                        <div class="col-6 col-lg-3 mt-4">
+                            <img src="./image/illustration/Gold-Chain_1.jpg" class="img-fluid" alt="Gold Chain">
+                        </div>
+                    </div>
+                </div>
+        
+                <!-- Kids' Jewellery -->
+                <div class="tab-pane fade" id="KJewellery" role="tabpanel">
+                    <div class="row border-lg">
+                        <div class="col-6 col-lg-3 mt-4">
+                            <img src="./image/illustration/Gold-Ring (1).jpg" class="img-fluid" alt="Gold Ring">
+                        </div>
+                        <div class="col-6 col-lg-3 mt-4">
+                            <img src="./image/illustration/Gold-ring (2).jpg" class="img-fluid" alt="Gold Ring">
+                        </div>
+                        <div class="col-6 col-lg-3 mt-4">
+                            <img src="./image/illustration/Gold-Pendant (2).jpg" class="img-fluid" alt="Gold Pendant">
+                        </div>
+                        <div class="col-6 col-lg-3 mt-4">
+                            <img src="./image/illustration/Gold-Bracelet.jpg" class="img-fluid" alt="Gold Bracelet">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+        
+   
+        <!-- --------------------------------------------------- -->
+
+       
+
+        <!-- -----------------Gift start----------------- -->
+
+        <div class="container mt-5">
+            <h1 class="text-center">Gift & More</h1>
+            <p class="text-center">Celebrate Every Occasion with Perfect Jewelry Gifts.</p>
+        </div>
+
+        <div class="d-md-flex flex-md-wrap mt-4">
+            <div class="d-md-flex flex-md-column col-md-6">
+                <div class="d-flex d-md-flex ">
+                    <div class="col-6 " id="birt">
+                        <img src="./image/illustration/Birthday.jpg" class="img-fluid img-thumbnail" alt="">
+                    </div>
+                    <div class="col-6 " id="birt">
+                        <img src="./image/illustration/anniversary.jpg" class="img-fluid img-thumbnail" alt="">
+                    </div>
+                </div>
+                <div class="d-flex ">
+                    <div class="col-6  " id="birt">
+                        <img src="./image/illustration/baby-birth.jpg" class="img-fluid img-thumbnail" alt="">
+                    </div>
+                    <div class="col-6  " id="birt">
+                        <img src="./image/illustration/festive.jpg" class="img-fluid img-thumbnail" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 d-flex">
+                <img src="./image/illustration/Personalized.jpg" class="col-6 img-fluid img-thumbnail " alt="">
+                <img src="./image/illustration/Customized.jpg" class="col-6 img-fluid img-thumbnail " alt="">
+            </div>
+        </div>
+        <!-- ----------------Gift End------------------- -->
+
+     
+
+        <!-----------store location---------------->
+
+        <section class="mt-5">
+            <h1 class="text-center ">Store Location</h1>
+
+            <div class="container col-md-12 d-md-flex flex-md-wrap  d-md-flex align-items-center">
+                <div class="col-md-6 d-md-flex flex-md-column align-items-md-center">
+
+                    <p class="p-lg-5 p-2 text-left text-lg-center">Find the our store to experience and explore our timeless jewelry collection.</p>
+
+                    <div class="d-flex justify-content-center">
+                        <button class="btn btn-primary">Locate Our Store</button>
+                    </div>
+                </div>
+
+                <figure class="col-12 col-md-6 mt-3 d-flex justify-content-center">
+                    <img src="./image/illustration/storeimg.jpg" class="img-fluid" alt="">
+                </figure>
+
+            </div>
+        </section>
+
+        <!-- -----------------store location end------------------ -->
+
+
+        <!-- footer -->
+        <section class="container mt-5 d-md-none">
+            <small>Quick Links</small>
+            <div class="accordion accordion-flush mt-3" id="">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#Onef">
+                      Know Us
+                    </button>
+                  </h2>
+                  <div id="Onef" class="accordion-collapse collapse" >
+                    <div class="accordion-body"><ul style="list-style: none;"><li><a href="">> Our Story</a></li></ul></div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#Twof" >
+                     JJS Promise
+                    </button>
+                  </h2>
+                  <div id="Twof" class="accordion-collapse collapse" >
+                    <div class="accordion-body">
+                        <ul style="list-style: none;">
+                            <li><a href="">> 14 Day-Exchange</a></li>
+                            <li><a href="">> Certification</a></li>
+                            <li><a href="">> Gold Exchange</a></li>
+                        </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#Threef">
+                      Customer Delight
+                    </button>
+                  </h2>
+                  <div id="Threef" class="accordion-collapse collapse" >
+                    <div class="accordion-body">
+                        <ul style="list-style: none;">
+                            <li><a href="">> FAQ</a></li>
+                            <li><a href="">> Policies</a></li>
+                            <li><a href="">> Book Appointment</a></li>
+                            <li><a href="">> Contact Us</a></li>
+                    
+                        </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#Fourf">
+                        Education
+                      </button>
+                    </h2>
+                    <div id="Fourf" class="accordion-collapse collapse" >
+                      <div class="accordion-body" >
+                          <ul style="list-style: none;">
+                              <li><a href="">> Size Guide</a></li>
+                              <li><a href="">> Jewellery Care Guide</a></li>
+                              <li><a href="">> Know Your Gemstone</a></li>
+                          </ul>
+                      </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#Fivef">
+                        get Touch
+                      </button>
+                    </h2>
+                    <div id="Fivef" class="accordion-collapse collapse" >
+                      <div class="accordion-body">
+                          <ul style="list-style: none;">
+                              <li><a href=""type="tel" pattern="[0-9]{10}" value="tel:9822385327">> +9822385327</a></li>
+                              <li><a href="">> Mon-Sat (10 AM to 7 PM)</a></li> 
+                          </ul>
+                      </div>
+                    </div>
+                </div>
+              </div>
+         </section>
+
+            <div class="col-md-12  d-md-flex justify-content-md-center align-items-md-center d-none">
+            <div class="col-md-10  d-flex mt-md-5">
+                <ul class="col-md-3 ">
+                    <h5 class="border-bottom" >Know Us</h5>
+                    <li class="lil"><a href=""  >Our Story</a></li>
+                    <li class="lil"><a href="">Privacy Policy</a></li>
+                    <li class="lil"><a href="">Terms & Conditions</a></li>
+                    <li class="lil"><a href="">Secure Payments</a></li>
+                </ul>
+
+                <ul class="col-md-3">
+                    <h5 class="border-bottom">JJS Promise</h5>
+                    <li class="lil"><a href="">14-Day Returns</a></li>
+                    <li class="lil"><a href="">Free Shipping</a></li>
+                    <li class="lil"><a href="">Certification</a></li>
+                    <li class="lil"><a href="">Lifetime Exchange</a></li>
+                    <li class="lil"><a href="">Gold Exchange</a></li>
+                </ul>
+
+                <ul class="col-md-3">
+                    <h5 class="border-bottom">Education</h5>
+                    <li class="lil"><a href="">Size Guide</a></li>
+                    <li class="lil"><a href="">Jewellery care Guide</a></li>
+                    <li class="lil"><a href="">Know Your Gemstone</a></li>
+                </ul>
+
+                <ul class="col-md-3">
+                    <h5 class="border-bottom">Get in Touch</h5>
+                    <li class="lil"><a href="tel://9842009007">+91-9822385327</a></li>
+                    <li class="lil"><a href="">(10 am - 6pm)</a></li>
+                    <li class="lil"><a href="">Connect With</a></li>
+                    <li class="lil col-md-6 col-lg-5 d-md-flex justify-content-md-between">
+                    <a href=""><i class="bi bi-telephone"></i></a>
+                    <a href=""><i class="bi bi-envelope"></i></a>
+                    <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                    
+                </ul>
+            </div>
+            </div>
+              <hr style="color: red;height: 2px;">
+              <section class="mb-2 ">
+                <p class="text-center mt-4 mb-2">@ 2025 JJS . All Right Reserved</p>
+              </section>
+             
+
+          
+           
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
